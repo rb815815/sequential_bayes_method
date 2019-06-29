@@ -1,0 +1,5 @@
+E:\project\sequential_bayes_method\spectrum_client\spectrum_client\bin\Debug\spectrum_client.exe
+E:\project\sequential_bayes_method\spectrum_client\spectrum_client\bin\Debug\spectrum_client.pdb
+E:\project\sequential_bayes_method\spectrum_client\spectrum_client\obj\Debug\spectrum_client.csprojResolveAssemblyReference.cache
+E:\project\sequential_bayes_method\spectrum_client\spectrum_client\obj\Debug\spectrum_client.exe
+E:\project\sequential_bayes_method\spectrum_client\spectrum_client\obj\Debug\spectrum_client.pdb
