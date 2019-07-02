@@ -11,21 +11,16 @@ namespace spectrum_client
     {
         static void Main(string[] args)
         {
-            /*
-            var client = new UdpClient();
-            var ip = IPAddress.Parse("238.228.218.208");
-            client.JoinMulticastGroup(ip, 10);
-
-            var multicast = new IPEndPoint(IPAddress.Any, 0);
-            byte[] bytes = client.Receive(ref multicast);
-            string msg = Encoding.ASCII.GetString(bytes);
-            Console.WriteLine(msg);
-            */
-            byte a = 0x01;
-            int b = a;
-            Console.WriteLine(b);
-
-            Console.ReadKey();
+            UdpClient client = new UdpClient(10000);
+            client.JoinMulticastGroup(IPAddress.Parse("239.255.255.250"));
+            IPEndPoint multicast = new IPEndPoint(IPAddress.Any, 0);
+            while (true)
+            {
+                byte[] buf = client.Receive(ref multicast);
+                string msg = Encoding.Default.GetString(buf);
+                Console.WriteLine(msg);
+                Console.WriteLine(multicast);
+            }
         }
 
         static public byte[] func_byte()
