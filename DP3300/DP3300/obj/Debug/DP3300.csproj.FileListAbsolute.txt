@@ -1,0 +1,8 @@
+F:\thy_work\DP3300\DP3300\bin\Debug\DP3300.exe
+F:\thy_work\DP3300\DP3300\bin\Debug\DP3300.pdb
+F:\thy_work\DP3300\DP3300\obj\Debug\DP3300.csprojResolveAssemblyReference.cache
+F:\thy_work\DP3300\DP3300\obj\Debug\DP3300.Properties.Resources.resources
+F:\thy_work\DP3300\DP3300\obj\Debug\DP3300.csproj.GenerateResource.Cache
+F:\thy_work\DP3300\DP3300\obj\Debug\DP3300.exe
+F:\thy_work\DP3300\DP3300\obj\Debug\DP3300.pdb
+F:\thy_work\DP3300\DP3300\obj\Debug\DP3300.form_main.resources
